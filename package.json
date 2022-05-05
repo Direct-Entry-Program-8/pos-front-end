@@ -1,0 +1,24 @@
+{
+  "name": "pos-front-end",
+  "version": "0.1.0",
+  "description": "POS System Front End",
+  "source": "[src/index.html]",
+  "scripts": {
+    "watch": "tsc --watch",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Direct-Entry-Program-8/pos-front-end.git"
+  },
+  "author": "Direct Entry Program <dep8@ijse.lk> (https://ijse.lk)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Direct-Entry-Program-8/pos-front-end/issues"
+  },
+  "homepage": "https://github.com/Direct-Entry-Program-8/pos-front-end#readme",
+  "devDependencies": {
+    "parcel": "^2.5.0"
+  }
+}
