@@ -2,7 +2,11 @@
   "name": "pos-front-end",
   "version": "0.1.0",
   "description": "POS System Front End",
+  "source": "[src/index.html]",
   "scripts": {
+    "watch": "tsc --watch",
+    "start": "parcel",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
@@ -13,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Direct-Entry-Program-8/pos-front-end/issues"
   },
-  "homepage": "https://github.com/Direct-Entry-Program-8/pos-front-end#readme"
+  "homepage": "https://github.com/Direct-Entry-Program-8/pos-front-end#readme",
+  "devDependencies": {
+    "parcel": "^2.5.0"
+  }
 }
